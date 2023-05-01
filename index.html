@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>introducing doosanbears</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>두산베어스</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">baseball club</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="doosan.png" alt="BASEBALL Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>BASEBALL BLOG</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>TITLE HEADING</h3>
+          <h5>Title description, <span class="w3-opacity">May 1, 2023</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="doosanbears.png" alt="doosanbears" style="width:100%" class="w3-padding-16">
+          <p>두산 베어스(Doosan Bears)는 대한민국 서울특별시를 연고지로 하는 KBO 소속 프로 야구단이다.</p>
+          <p>삼성 라이온즈, 롯데 자이언츠 등과 마찬가지로 KBO 리그 원년에 창단된 프로야구단 중 하나로 두산프로야구단 OB 베어스가 1982년 창단 당시의 구단명이었다.</p>
+          <p>KBO 한국시리즈에서 총 6회 우승(1982, 1995, 2001, 2015, 2016, 2019) 하였으며, 서울특별시 송파구 잠실동에 있는 서울종합운동장 야구장을 홈구장으로 사용한다.</p>
+          <p>창단 당시 연고지는 대전시를 포함한 충청남북도 였으나 3년 뒤 서울로 연고지를 변경한다는 조건이 있었기 때문에 3년 후 서울로 연고지를 이전했으며 이전 직후인 1985년엔 서울 동대문야구장을 주로 홈 구장으로 사용하다가 1986년부터 서울종합운동장 야구장을 홈 구장으로 사용하고 있다.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>코칭스태프</h3>
+          <h5>감독 <span class="w3-opacity">이승엽</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="lee.jpg" alt="Seung yuop lee" style="width:100%" class="w3-padding-16">
+          <p>
+            <p><strong>수석코치</strong> 김한수</p>
+            <p><strong>투수코치</strong> 정재훈, 박정배</p>
+            
+            <p><strong>타격코치</strong> 고토, 김주찬</p>
+            
+            <p><strong>주루코치</strong> 정수성, 고영민</p>
+            
+            <p><strong>배터리코치</strong>세리자와</p> 
+            
+            <p><strong>수비코치</strong> 조성환</p> 
+            
+            <p><strong>트레이닝 코치</strong>천종민, 조광희, 유종수</p>
+            </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_train.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Love hats!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="pitcher.jpg" alt="pitcher" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>pitcher</h4>
+          <p>
+            <p><strong>투수조장</strong> 17.홍건희</p>
+            <p>1.박치국, 2.김지용, 27.김강률, 28.장원준, 29.이병헌, 33.딜런, 41.김동주, 42.최지강, 43.알칸타라, 45.이형범, 46.김명신, 47.곽빈, 55.이승진, 56.김호준, 59.최준호, 60.박정수, 61.최원준
+              </p> 
+          </p>
+        </div>
+      </div>
+      <hr>
+
+         <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="hitter.jpg" alt="hitter" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>hitter</h4>
+          <p>
+            <p><strong>내야수</strong> </p>
+            <p>주장 13. 허경민, 7.이유찬, 34.권민석 18.김민혁 35.전민재 </p>
+            <p><strong>외야수</strong></p>
+            <p>8.송승환, 31.정수빈, 32.김재환, 37.김대한, 51.조수행, 39.김인태 </p> 
+            <p><strong>포수</strong></p>
+            <p>25.양의지, 22.장승현, 20.안승한</p>
+          </p>
+        </div>
+      </div>
+      <hr>
+      
+      
+  
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
